@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+     
+      
+      <nav class="navbar">
+        <div class="hamburger" id="hamburger">
+          <i class='bx bx-menu'></i>
+        </div>
+        <div class="logo-links">
+          <div class="logo">
+            <img src="./Assets/logo.svg" alt="website-logo" />
+          </div>
+          <div class="hero-section">
+            <a href="#">Collection</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        
+        </div>
+        <div class="cart-image">
+          <img src="Assets/icon-cart.svg" alt="icon-cart" />
+          <img
+            class="image-avatar" 
+            id="avatar"
+            src="./Assets/image-avatar.png"
+            alt="image-avatar"
+            width="40px"
+          />
+        </div>
+        <div id="profileDropdown" class="profile-dropdown hidden">
+          <p><strong>My Profile</strong></p>
+          <hr />
+          <p>Settings</p>
+          <p>Logout</p>
+        </div>
+        
+      </nav>
+    </header>
+    <hr />
+    <main>
+      
+      <div class="main-parent">
+        <div>
+      
+          <img
+            id="mainImage"
+            class="image-product-1"
+            src="./Assets/image-product-1.jpg"
+            alt="Main product"
+            width="380px"
+          />
+        
+          <div class="image-container">
+            <img
+              class="thumbnail"
+              src="./Assets/image-product-1-thumbnail.jpg" 
+              data-full="./Assets/image-product-1.jpg"
+              alt="Thumbnail 1"
+              width="75px"
+            />
+            <img
+              class="thumbnail"
+              src="./Assets/image-product-2-thumbnail.jpg"
+              data-full="./Assets/image-product-2.jpg"
+              alt="Thumbnail 2"
+              width="75px"
+            />
+            <img
+              class="thumbnail"
+              src="./Assets/image-product-3-thumbnail.jpg"
+              data-full="./Assets/image-product-3.jpg"
+              alt="Thumbnail 3"
+              width="75px"
+            />
+            <img
+              class="thumbnail"
+              src="./Assets/image-product-4-thumbnail.jpg"
+              data-full="./Assets/image-product-4.jpg"
+              alt="Thumbnail 4"
+              width="75px"
+            />
+          </div>
+        </div>
+        
+        <div class="paragraph-section">
+          <p class="brand-name">SNEAKERS COMPANY</p>
+          <h1>
+            FALL LIMITED EDITION <br />
+            SNEAKERS
+          </h1>
+          <p>
+            These low-profit sneakers are your perfect wear <br />
+            companion. Featuring a durable rubber outer sole, they'll <br />
+            withstand everything the weather can offer.
+          </p>
+          <div class="overall-price">
+            <div class="price">
+              <p>$125.00</p>
+              <div class="discount">50%</div>
+            </div>
+            <p class="original-price">$250.00</p>
+          </div>
+
+          <!-- increment section  -->
+
+
+          <div class="merge-to-cart">
+          <div class="increment">
+            
+            <div class="minus">
+            
+              <img id="decrease" src="./Assets/icon-minus.svg" alt="" />
+            </div>
+            <p id="count">0</p>
+            <div class="plus">
+              <img id="increase" src="./Assets/icon-plus.svg" alt="" />
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <img src="./Assets/icon-cart.svg" alt="" />
+            <p>Add to cart</p>
+          </div>
+         
+          
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

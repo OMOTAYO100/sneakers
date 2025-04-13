@@ -196,7 +196,7 @@ h1 {
   gap: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 575.98px) {
   .hamburger {
     display: block;
     font-size: 48px;
@@ -210,7 +210,7 @@ h1 {
     top: 70px;
     left: 0;
     background-color: white;
-    width: 30%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -242,16 +242,31 @@ h1 {
   }
 
   .main-parent {
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+  #mainImage{
+    width: 80%;
+    margin: auto;
+    margin-left: 20px;
+    border-radius: 20px;
   }
 
   .image-container {
+width: 80%;
+margin: auto;
+margin-right: 85px;
+gap: 35px;
     justify-content: center;
     flex-wrap: wrap;
     
     /* padding-left: 10px; */
+  }
+  .paragraph-section{
+    margin-right: 40px;
   }
 
   .increment,
@@ -260,7 +275,9 @@ h1 {
     justify-content: center;
   }
   .minus{
+    
     padding-right: 30px;
+   
   }
   .plus{
     padding-left: 30px;

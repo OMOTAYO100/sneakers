@@ -196,10 +196,14 @@ h1 {
   gap: 10px;
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 428px) {
+  body{
+    width: 100%;
+  }
+  
   .hamburger {
     display: block;
-    font-size: 48px;
+    font-size: 38px;
     cursor: pointer;
     margin-left: 10px;
   }
@@ -226,6 +230,8 @@ h1 {
     display: flex;
   }
 
+  
+
   .logo-links {
     width: auto;
     flex-direction: column;
@@ -249,17 +255,17 @@ h1 {
     padding-top: 20px;
   }
   #mainImage{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    margin-left: 20px;
+    margin-left: 15px;
     border-radius: 20px;
   }
 
   .image-container {
-width: 80%;
+width: 90%;
 margin: auto;
-margin-right: 85px;
-gap: 35px;
+margin-right: 25px;
+gap: 13px;
     justify-content: center;
     flex-wrap: wrap;
     
@@ -267,6 +273,16 @@ gap: 35px;
   }
   .paragraph-section{
     margin-right: 40px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .paragraph-section h1{
+width: 100%;
+font-size: 23px;
+  }
+  br{
+    display: none;
   }
 
   .increment,

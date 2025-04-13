@@ -1,3 +1,7 @@
+
+//this is for the hamburger//
+
+
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.querySelector(".hero-section");
 
@@ -6,7 +10,7 @@ hamburger.addEventListener("click", () => {
 });
 
 
-
+// image avatar dropdown//
 
 
 const avatar = document.getElementById("avatar");
@@ -23,7 +27,7 @@ const countDisplay = document.getElementById("count");
 const increaseBtn = document.getElementById("increase");
 const decreaseBtn = document.getElementById("decrease");
 
-let count = 0; // Initial value
+let count = 0; 
 
 // Function to increase count
 increaseBtn.addEventListener("click", () => {
@@ -31,7 +35,7 @@ increaseBtn.addEventListener("click", () => {
   countDisplay.textContent = count;
 });
 
-// Function to decrease count (with a minimum limit of 0)
+// Function to decrease count 
 decreaseBtn.addEventListener("click", () => {
   if (count > 0) {
     count--;

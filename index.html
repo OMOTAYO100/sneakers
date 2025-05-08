@@ -19,11 +19,15 @@
   </head>
   <body>
     <header>
-     
-      
       <nav class="navbar">
-        <div class="hamburger" id="hamburger">
-          <i class='bx bx-menu'></i>
+        <div
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation"
+          role="button"
+          tabindex="0"
+        >
+          <i class="bx bx-menu"></i>
         </div>
         <div class="logo-links">
           <div class="logo">
@@ -37,12 +41,11 @@
             <a href="#">Contact</a>
           </div>
         </div>
-        
-        </div>
+
         <div class="cart-image">
           <img src="Assets/icon-cart.svg" alt="icon-cart" />
           <img
-            class="image-avatar" 
+            class="image-avatar"
             id="avatar"
             src="./Assets/image-avatar.png"
             alt="image-avatar"
@@ -55,15 +58,12 @@
           <p>Settings</p>
           <p>Logout</p>
         </div>
-        
       </nav>
     </header>
     <hr />
     <main>
-      
       <div class="main-parent">
         <div>
-      
           <img
             id="mainImage"
             class="image-product-1"
@@ -71,11 +71,10 @@
             alt="Main product"
             width="380px"
           />
-        
           <div class="image-container">
             <img
               class="thumbnail"
-              src="./Assets/image-product-1-thumbnail.jpg" 
+              src="./Assets/image-product-1-thumbnail.jpg"
               data-full="./Assets/image-product-1.jpg"
               alt="Thumbnail 1"
               width="75px"
@@ -103,7 +102,7 @@
             />
           </div>
         </div>
-        
+
         <div class="paragraph-section">
           <p class="brand-name">SNEAKERS COMPANY</p>
           <h1>
@@ -123,27 +122,22 @@
             <p class="original-price">$250.00</p>
           </div>
 
-          <!-- increment section  -->
-
-
           <div class="merge-to-cart">
-          <div class="increment">
-            
-            <div class="minus">
-            
-              <img id="decrease" src="./Assets/icon-minus.svg" alt="" />
+            <div class="increment">
+              <div class="minus">
+                <img id="decrease" src="./Assets/icon-minus.svg" alt="" />
+              </div>
+              <p id="count">0</p>
+              <div class="plus">
+                <img id="increase" src="./Assets/icon-plus.svg" alt="" />
+              </div>
             </div>
-            <p id="count">0</p>
-            <div class="plus">
-              <img id="increase" src="./Assets/icon-plus.svg" alt="" />
+
+            <div class="add-to-cart">
+              <img src="./Assets/icon-cart.svg" alt="" />
+              <p>Add to cart</p>
             </div>
           </div>
-          <div class="add-to-cart">
-            <img src="./Assets/icon-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-         
-          
         </div>
       </div>
     </main>

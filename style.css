@@ -197,10 +197,10 @@ h1 {
 }
 
 @media only screen and (max-width: 428px) {
-  body{
+  body {
     width: 100%;
   }
-  
+
   .hamburger {
     display: block;
     font-size: 38px;
@@ -230,8 +230,6 @@ h1 {
     display: flex;
   }
 
-  
-
   .logo-links {
     width: auto;
     flex-direction: column;
@@ -254,7 +252,7 @@ h1 {
     padding-left: 15px;
     padding-top: 20px;
   }
-  #mainImage{
+  #mainImage {
     width: 90%;
     margin: auto;
     margin-left: 15px;
@@ -262,26 +260,26 @@ h1 {
   }
 
   .image-container {
-width: 90%;
-margin: auto;
-margin-right: 25px;
-gap: 13px;
+    width: 90%;
+    margin: auto;
+    margin-right: 25px;
+    gap: 13px;
     justify-content: center;
     flex-wrap: wrap;
-    
+
     /* padding-left: 10px; */
   }
-  .paragraph-section{
+  .paragraph-section {
     margin-right: 40px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
 
-  .paragraph-section h1{
-width: 100%;
-font-size: 23px;
+  .paragraph-section h1 {
+    width: 100%;
+    font-size: 23px;
   }
-  br{
+  br {
     display: none;
   }
 
@@ -290,12 +288,10 @@ font-size: 23px;
     width: 100%;
     justify-content: center;
   }
-  .minus{
-    
+  .minus {
     padding-right: 30px;
-   
   }
-  .plus{
+  .plus {
     padding-left: 30px;
   }
 

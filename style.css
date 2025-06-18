@@ -111,10 +111,9 @@ main {
   border-radius: 10px;
 }
 .main-parent {
-  padding-left: 40px;
-  width: 85%;
   display: flex;
-  justify-content: space-between;
+  gap: 15%;
+  
 }
 .paragraph-section {
   margin-top: 50px;
@@ -178,7 +177,7 @@ h1 {
 .plus {
   cursor: pointer;
 }
-.add-to-cart {
+button {
   width: 35%;
   height: 35px;
   background-color: hsl(26, 100%, 55%);
@@ -188,6 +187,7 @@ h1 {
   gap: 10px;
   border-radius: 5px;
   margin-top: 1px;
+  cursor: pointer;
 }
 .merge-to-cart {
   margin-top: 30px;
@@ -196,7 +196,7 @@ h1 {
   gap: 10px;
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (min-width: 228px)and (max-width:1020px) {
   body {
     width: 100%;
   }
@@ -246,6 +246,8 @@ h1 {
   }
 
   .main-parent {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -258,12 +260,14 @@ h1 {
     margin-left: 15px;
     border-radius: 20px;
   }
+ 
+  
 
   .image-container {
+    display: flex;
     width: 90%;
     margin: auto;
-    margin-right: 25px;
-    gap: 13px;
+    gap: 29px;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -273,6 +277,7 @@ h1 {
     margin-right: 40px;
     line-height: 1.5;
     margin-bottom: 10px;
+    
   }
 
   .paragraph-section h1 {
@@ -284,7 +289,7 @@ h1 {
   }
 
   .increment,
-  .add-to-cart {
+  button {
     width: 100%;
     justify-content: center;
   }

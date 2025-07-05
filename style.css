@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body { background:white;
   font-family: kumbh sans;
 }
 .logo {
@@ -113,7 +113,6 @@ main {
 .main-parent {
   display: flex;
   gap: 15%;
-  
 }
 .paragraph-section {
   margin-top: 50px;
@@ -182,7 +181,7 @@ button {
   height: 35px;
   background-color: hsl(26, 100%, 55%);
   display: flex;
-  justify-content: center;
+  justify-self: center;
   align-items: center;
   gap: 10px;
   border-radius: 5px;
@@ -196,9 +195,100 @@ button {
   gap: 10px;
 }
 
-@media only screen and (min-width: 228px)and (max-width:1020px) {
-  body {
-    width: 100%;
+@media only screen and (min-width: 328px) and (max-width: 640px) {
+  .logo {
+    padding-left: 0%;
+  }
+
+  .navbar {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    gap: px;
+  }
+
+  .hero-section {
+    display: none;
+    padding-left: 0;
+  }
+  .main-parent {
+    flex-direction: column;
+    gap: 5%;
+  }
+
+  .image-container {
+    padding-top: 0;
+
+    gap: 25px;
+  }
+  hr {
+  width: 0%;
+  margin:0;
+  margin-left: 0%;
+}
+  
+}
+  main {
+    padding-top: 4%;
+    padding-left: 0px;
+  }
+  .cart-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 0px;
+
+}
+
+.merge-to-cart {
+  margin-top: 30px;
+flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+button {
+  width: 100%;;
+  padding: 8px;
+  background-color: hsl(26, 100%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+.increment {
+  padding: 8px;
+  width: 100%;
+  gap: 35px;
+  
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-dropdown p {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+
+}
+/* .navbar {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .navbar {
+    flex-wrap: wrap;
+    padding: 20px;
   }
 
   .hamburger {
@@ -206,9 +296,9 @@ button {
     font-size: 38px;
     cursor: pointer;
     margin-left: 10px;
-  }
+  } */
 
-  .hero-section {
+/* .hero-section {
     display: none;
     position: absolute;
     top: 70px;
@@ -224,10 +314,10 @@ button {
   }
   .hero-section:hover {
     color: red;
-  }
+  } */
 
-  .hero-section.active {
-    display: flex;
+/* .hero-section {
+  display: none;
   }
 
   .logo-links {
@@ -236,10 +326,7 @@ button {
     align-items: flex-start;
   }
 
-  .navbar {
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+  
 
   .cart-image {
     padding-right: 0;
@@ -269,11 +356,12 @@ button {
     margin: auto;
     gap: 29px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    }*/
 
-    /* padding-left: 10px; */
-  }
-  .paragraph-section {
+/* padding-left: 10px; */
+
+/* .paragraph-section {
     margin-right: 40px;
     line-height: 1.5;
     margin-bottom: 10px;
@@ -319,4 +407,4 @@ button {
     width: 100%;
     margin-left: 0;
   }
-}
+} */
